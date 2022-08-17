@@ -50,7 +50,7 @@ https://github.com/44451516/XIVSlothCombo/blob/CN/XIVSlothCombo/Window/Functions
 `/scombo unset SimpleBardFeature`  etc.
 
 #
-## 自用版（dsssq/selfDev）
+## 自用版（dsssq/SelfDev）
 
 * Repo Link
 
