@@ -54,4 +54,4 @@ https://github.com/44451516/XIVSlothCombo/blob/CN/XIVSlothCombo/Window/Functions
 
 * Repo Link
 
-`https://raw.githubusercontent.com/dsssq/XIVSlothCombo/selfDev/release/pluginmaster.json`
+`https://raw.githubusercontent.com/dsssq/XIVSlothCombo/SelfDev/release/pluginmaster.json`
