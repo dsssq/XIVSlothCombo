@@ -426,10 +426,10 @@ namespace XIVSlothCombo.Combos.PvE
                         return All.HeadGraze;
 
                     // Simple ST Standard (activates dance with no target, or when target is over HP% threshold)
-                    // dsssq:删除“ || techBurstTimer > 5”判断条件，保证大舞buff期间不跳小舞，120-3SS。
+                    // dsssq:增加“!LevelChecked(StarfallDance) && ”判断条件，保证舞者90级大舞buff期间不跳小舞，120-3SS。
                     if ((!HasTarget() || GetTargetHPPercent() > standardStepBurstThreshold) &&
                         IsEnabled(CustomComboPreset.DNC_ST_Simple_SS) && standardStepReady &&
-                        (!HasEffect(Buffs.TechnicalStep) && !techBurst))
+                        ((!HasEffect(Buffs.TechnicalStep) && !techBurst) || (!LevelChecked(StarfallDance) && techBurstTimer > 5)))
                         return StandardStep;
 
                     // Simple ST Tech (activates dance with no target, or when target is over HP% threshold)
@@ -550,10 +550,10 @@ namespace XIVSlothCombo.Combos.PvE
                         return All.HeadGraze;
 
                     // Simple AoE Standard (activates dance with no target, or when target is over HP% threshold)
-                    // dsssq:删除“ || techBurstTimer > 5”判断条件，保证大舞buff期间不跳小舞，120-3SS。
+                    // dsssq:增加“!LevelChecked(StarfallDance) && ”判断条件，保证舞者90级大舞buff期间不跳小舞，120-3SS。
                     if ((!HasTarget() || GetTargetHPPercent() > standardStepBurstThreshold) &&
                         IsEnabled(CustomComboPreset.DNC_AoE_Simple_SS) && standardStepReady &&
-                        (!HasEffect(Buffs.TechnicalStep) && !techBurst))
+                        ((!HasEffect(Buffs.TechnicalStep) && !techBurst) || (!LevelChecked(StarfallDance) && techBurstTimer > 5)))
                         return StandardStep;
 
                     // Simple AoE Tech (activates dance with no target, or when target is over HP% threshold)

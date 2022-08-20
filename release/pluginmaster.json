@@ -4,7 +4,7 @@
     "Name": "XIVSlothCombo",
     "Punchline": "Condenses combos and mutually exclusive abilities onto a single button - and then some.",
     "Description": "Condenses combos and mutually exclusive abilities onto a single button - and then some.",
-    "Changelog": "cn6.1_20220818",
+    "Changelog": "cn6.1_20220820 更新：舞者，90级大舞buff期间不跳小舞，120-3SS。",
     "InternalName": "XIVSlothCombo",
     "AssemblyVersion": "3.14.16.10",
     "RepoUrl": "https://github.com/Nik-Potokar/XIVSlothCombo",
