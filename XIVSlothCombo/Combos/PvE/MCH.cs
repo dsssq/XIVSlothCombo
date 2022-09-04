@@ -391,6 +391,14 @@ namespace XIVSlothCombo.Combos.PvE
             internal static bool openerFinished = false;
             internal static int subStep = 0;    //dsssq:机工起手
 
+            /// <summary>
+            /// 机工士一键简易输出
+            /// </summary>
+            /// <param name="actionID"></param>
+            /// <param name="lastComboMove"></param>
+            /// <param name="comboTime">dsssq:1-2-3基础连击有效时间——30s</param>
+            /// <param name="level"></param>
+            /// <returns></returns>
             protected override uint Invoke(uint actionID, uint lastComboMove, float comboTime, byte level)
             {
                 if (actionID is SplitShot or HeatedSplitShot)
@@ -602,7 +610,8 @@ namespace XIVSlothCombo.Combos.PvE
                             return HeatBlast;
                         }
 
-                        if (CanWeave(actionID) && gauge.Heat >= 50 && openerFinished && IsEnabled(CustomComboPreset.MCH_ST_Simple_WildCharge) && level >= Levels.Hypercharge && !gauge.IsOverheated)
+                        if (CanWeave(actionID) && gauge.Heat >= 50 && openerFinished && IsEnabled(CustomComboPreset.MCH_ST_Simple_WildCharge) && level >= Levels.Hypercharge && !gauge.IsOverheated
+                            && comboTime >= 10.6) //dsssq:gcd2.5s + overheated8s + delay0.1s，保证1-2-3基础连击不断，避免打出三连过热。
                         {
                             //Protection & ensures Hyper charged is double weaved with WF during reopener
                             if (HasEffect(Buffs.Wildfire) || level < Levels.Wildfire) return Hypercharge;

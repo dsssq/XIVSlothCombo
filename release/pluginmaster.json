@@ -4,7 +4,7 @@
     "Name": "XIVSlothCombo",
     "Punchline": "Condenses combos and mutually exclusive abilities onto a single button - and then some.",
     "Description": "Condenses combos and mutually exclusive abilities onto a single button - and then some.",
-    "Changelog": "cn6.1_20220904",
+    "Changelog": "cn6.1_20220904 更新：机工士，“一键简易循环”打出三连过热，导致基础连击超时的问题。",
     "InternalName": "XIVSlothCombo",
     "AssemblyVersion": "3.0.16.20",
     "RepoUrl": "https://github.com/Nik-Potokar/XIVSlothCombo",
