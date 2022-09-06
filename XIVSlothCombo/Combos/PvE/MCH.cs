@@ -411,6 +411,7 @@ namespace XIVSlothCombo.Combos.PvE
                     if (!inCombat)
                     {
                         openerFinished = false;
+                        if (gauge.Heat >= 50) openerFinished = true;    //dsssq:起手前存有热量，跳过常规起手。
                         subStep = 0;    //dsssq:机工起手，步骤初始化
 
                         if (GetRemainingCharges(Reassemble) == GetMaxCharges(Reassemble)) //dsssq:机工起手，整备起手
@@ -510,11 +511,6 @@ namespace XIVSlothCombo.Combos.PvE
                         else//分支：<lv.90
                         {
                             if (subStep == 13)
-                            {
-                                if (lastComboMove == SplitShot) subStep++;
-                                else return OriginalHook(SplitShot);
-                            }
-                            if (subStep == 14)
                             {
                                 if (gauge.IsOverheated) subStep++;
                                 else if (CanWeave(actionID, 0.6)) return Hypercharge;
