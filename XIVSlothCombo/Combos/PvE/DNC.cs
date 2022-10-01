@@ -435,7 +435,15 @@ namespace XIVSlothCombo.Combos.PvE
                     // Simple ST Tech (activates dance with no target, or when target is over HP% threshold)
                     if ((!HasTarget() || GetTargetHPPercent() > technicalStepBurstThreshold) &&
                         IsEnabled(CustomComboPreset.DNC_ST_Simple_TS) && technicalStepReady && !HasEffect(Buffs.StandardStep))
-                        return TechnicalStep;
+                    // dsssq:80级，百花插入在标准舞步和技巧舞步之间
+                    {
+                        if (LevelChecked(Flourish) && !LevelChecked(Tillana) && IsOffCooldown(Flourish))
+                        {
+                            return Flourish;
+                        }
+                        else
+                            return TechnicalStep;
+                    }
 
                     // Devilment & Flourish
                     if (canWeave)

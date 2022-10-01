@@ -4,7 +4,7 @@
     "Name": "XIVSlothCombo",
     "Punchline": "Condenses combos and mutually exclusive abilities onto a single button - and then some.",
     "Description": "Condenses combos and mutually exclusive abilities onto a single button - and then some.",
-    "Changelog": "cn6.1_20221001 Merge from CN",
+    "Changelog": "cn6.1_20221001 更新：舞者，80级百花施放时机",
     "InternalName": "XIVSlothCombo",
     "AssemblyVersion": "3.0.16.21",
     "RepoUrl": "https://github.com/Nik-Potokar/XIVSlothCombo",
