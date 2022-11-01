@@ -28,7 +28,7 @@
 		<ProduceReferenceAssembly>false</ProduceReferenceAssembly>
 		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
 		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-		<OutputPath>C:\Users\Y.Luo\Documents\SelfDev\ReleaseStore\XIVSlothCombo\</OutputPath>
+		<OutputPath>C:\Users\dsssq\Documents\SelfDev\ReleaseStore\XIVSlothCombo\</OutputPath>
 		<NoWarn>CS1591</NoWarn>
 	</PropertyGroup>
 
