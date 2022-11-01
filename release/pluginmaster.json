@@ -15,11 +15,11 @@
     "ImageUrls": [
       "https://i.imgur.com/UeRukF8.png"
     ],
-    "DownloadLinkInstall": "https://github.com/dsssq/XIVSlothCombo/raw/SelfDev/release/latest.zip",
+    "DownloadLinkInstall": "https://ghproxy.com/https://github.com/dsssq/XIVSlothCombo/raw/SelfDev/release/latest.zip",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "DownloadLinkTesting": "https://github.com/dsssq/XIVSlothCombo/raw/SelfDev/release/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/dsssq/XIVSlothCombo/raw/SelfDev/release/latest.zip",
+    "DownloadLinkTesting": "https://ghproxy.com/https://github.com/dsssq/XIVSlothCombo/raw/SelfDev/release/latest.zip",
+    "DownloadLinkUpdate": "https://ghproxy.com/https://github.com/dsssq/XIVSlothCombo/raw/SelfDev/release/latest.zip",
     "DownloadCount": 0,
     "LastUpdated": "1649530804"
   }
