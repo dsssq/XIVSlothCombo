@@ -11,9 +11,9 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 7,
     "LoadPriority": 0,
-    "IconUrl": "https://i.imgur.com/UeRukF8.png",
+    "IconUrl": "https://ghproxy.com/https://raw.githubusercontent.com/dsssq/XIVSlothCombo/SelfDev/res/akified.png",
     "ImageUrls": [
-      "https://i.imgur.com/UeRukF8.png"
+      "https://ghproxy.com/https://raw.githubusercontent.com/dsssq/XIVSlothCombo/SelfDev/res/akified.png"
     ],
     "DownloadLinkInstall": "https://ghproxy.com/https://raw.githubusercontent.com/dsssq/XIVSlothCombo/SelfDev/release/latest.zip",
     "IsHide": false,
